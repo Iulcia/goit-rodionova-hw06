@@ -78,6 +78,7 @@ class AddressBook(UserDict):
         if name in self.data: # delete instance of Record for user if found by name
             del self.data[name]
 
+# Залишила для подальших перевірок цей шматок з домашки =>
 # Створення нової адресної книги
 book = AddressBook()
 
